@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-
 //connect firebase
   // Initialize Firebase
   var config = {
@@ -16,7 +14,6 @@ $(document).ready(function(){
 
   var database = firebase.database();
 
-
   var name = "";
   var destination = "";
   var startTime = "";
@@ -24,16 +21,6 @@ $(document).ready(function(){
 
 //get input from form
 //create button to submit data
-
-
-var tMinutesLeft = "";
-var nextTrain = "";
-var nextTrainFormated = ""
-
-
-var currentTime = "";
-var tRemainder = "";
-var diffTime = "";
 
 $('.submitBtn').on('click',function(event){
     event.preventDefault();
